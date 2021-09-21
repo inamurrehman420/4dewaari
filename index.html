@@ -1,0 +1,2121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+      4dewaari
+    </title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" />
+    
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Define your gradient here - use online tools to find a gradient matching your branding-->
+    <style>
+
+    .site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+    .h-333{
+      height: 333px;
+    }
+.text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.10);
+  }
+
+  .text-shadow-md {
+    text-shadow: 0 4px 8px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.08);
+  }
+
+  .text-shadow-lg {
+    text-shadow: 0 15px 30px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.08);
+  }
+
+  .text-shadow-none {
+    text-shadow: none;
+  }
+
+    .fa{
+      font-size: 18px !important;
+    }
+
+      li>ul                 { transform: translatex(100%) scale(0) }
+  li:hover>ul           { transform: translatex(101%) scale(1) }
+  li > button svg       { transform: rotate(-90deg) }
+  li:hover > button svg { transform: rotate(-270deg) }
+
+  /* Below styles fake what can be achieved with the tailwind config
+     you need to add the group-hover variant to scale and define your custom
+     min width style.
+     See https://codesandbox.io/s/tailwindcss-multilevel-dropdown-y91j7?file=/index.html
+     for implementation with config file
+  */
+  .group:hover .group-hover\:scale-100 { transform: scale(1) }
+  .group:hover .group-hover\:-rotate-180 { transform: rotate(180deg) }
+  .scale-0 { transform: scale(0) }
+  .min-w-32 { min-width: 8rem }
+    .b-tab{
+      border-bottom: 8px solid #EC4E18;
+    }
+    .bg-secondary{
+      background: #EC4E18;
+    }
+    .text-secondary{
+      color: #EC4E18;
+    }
+      .gradient {
+        background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+      }
+      .clear-left{
+  clear:left;
+}
+p{
+  font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5{
+font-family: 'Poppins', sans-serif;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+#news-slider{
+    margin-top: 80px;
+}
+.post-slide{
+    background: #fff;
+    margin: 20px 15px 20px;
+    border-radius: 15px;
+    padding-top: 1px;
+    box-shadow: 0px 14px 22px -9px #bbcbd8;
+}
+.post-slide .post-img{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: -12px 15px 8px 15px;
+    margin-left: -10px;
+}
+.post-slide .post-img img{
+    width: 100%;
+    height: auto;
+    transform: scale(1,1);
+    transition:transform 0.2s linear;
+}
+.post-slide:hover .post-img img{
+    transform: scale(1.1,1.1);
+}
+.post-slide .over-layer{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    opacity:0;
+    background: linear-gradient(-45deg, rgba(6,190,244,0.75) 0%, rgba(45,112,253,0.6) 100%);
+    transition:all 0.50s linear;
+}
+.post-slide:hover .over-layer{
+    opacity:1;
+    text-decoration:none;
+}
+.post-slide .over-layer i{
+    position: relative;
+    top:45%;
+    text-align:center;
+    display: block;
+    color:#fff;
+    font-size:25px;
+}
+.post-slide .post-content{
+    background:#fff;
+    padding: 2px 20px 40px;
+    border-radius: 15px;
+}
+.post-slide .post-title a{
+    font-size:15px;
+    font-weight:bold;
+    color:#333;
+    display: inline-block;
+    text-transform:uppercase;
+    transition: all 0.3s ease 0s;
+}
+.post-slide .post-title a:hover{
+    text-decoration: none;
+    color:#3498db;
+}
+.post-slide .post-description{
+    line-height:24px;
+    color:#808080;
+    margin-bottom:25px;
+}
+.post-slide .post-date{
+    color:#a9a9a9;
+    font-size: 14px;
+}
+.post-slide .post-date i{
+    font-size:20px;
+    margin-right:8px;
+    color: #CFDACE;
+}
+.post-slide .read-more{
+    padding: 7px 20px;
+    float: right;
+    font-size: 12px;
+    background: #2196F3;
+    color: #ffffff;
+    box-shadow: 0px 10px 20px -10px #1376c5;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+.post-slide .read-more:hover{
+    background: #3498db;
+    text-decoration:none;
+    color:#fff;
+}
+.owl-controls .owl-buttons{
+    text-align:center;
+    margin-top:20px;
+}
+.owl-controls .owl-buttons .owl-prev{
+    background: #fff;
+    position: absolute;
+    top:-13%;
+    left:15px;
+    padding: 0 18px 0 15px;
+    border-radius: 50px;
+    box-shadow: 3px 14px 25px -10px #92b4d0;
+    transition: background 0.5s ease 0s;
+}
+.owl-controls .owl-buttons .owl-next{
+    background: #fff;
+    position: absolute;
+    top:-13%;
+    right: 15px;
+    padding: 0 15px 0 18px;
+    border-radius: 50px;
+    box-shadow: -3px 14px 25px -10px #92b4d0;
+    transition: background 0.5s ease 0s;
+}
+.owl-controls .owl-buttons .owl-prev:after,
+.owl-controls .owl-buttons .owl-next:after{
+    content:"\f104";
+    font-family: FontAwesome;
+    color: #333;
+    font-size:30px;
+}
+.owl-controls .owl-buttons .owl-next:after{
+    content:"\f105";
+}
+@media only screen and (max-width:1280px) {
+    .post-slide .post-content{
+        padding: 0px 15px 25px 15px;
+    }
+}
+
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+  </head>
+  <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
+<nav class="bg-white shadow-lg">
+  <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="relative flex items-center justify-between h-16">
+      <div class="absolute inset-y-0 left-0 flex items-center sm:hidden  shadow-md">
+        <!-- Mobile menu button-->
+        <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+
+          <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+      <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+        <div class="flex-shrink-0 flex items-center">
+          <img class="block lg:hidden h-8 w-auto" src="https://4dewaari.com/assets/img/4dewaari-logo.png" alt="Workflow">
+          <img class="hidden lg:block h-8 w-auto" src="https://4dewaari.com/assets/img/4dewaari-logo.png" alt="Workflow">
+        </div>
+        <div class="hidden sm:block sm:ml-6">
+          <div class="flex space-x-4">
+            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+            <a href="#" class="bg-secondary text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Home</a>
+
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium text-secondary">Residential</a>
+
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium text-secondary">Land/Plot</a>
+
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium text-secondary">Commercial</a>
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium text-secondary">Projects</a>
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium text-secondary">Agencies</a>
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium text-secondary">Blog</a>
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium text-secondary">Maps</a>
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium text-secondary">Commercial</a>
+          </div>
+        </div>
+      </div>
+      <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+        <button class="bg-white hover:bg-grey text-grey-darkest font-bold py-2 px-4 rounded-md inline-flex items-center text-secondary transform hover:scale-105 transition duration-500" style="border: 2px solid #EC4E18;">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 mr-2 w-5 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          <span>Add Property</span>
+        </button>
+
+        <!-- Profile dropdown -->
+        <div class="ml-3 relative">
+          <div>
+            <button type="button" class="bg-gray-800 flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
+              <span class="sr-only">Open user menu</span>
+              <img class="h-8 w-8 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile menu, show/hide based on menu state. -->
+  <div class="sm:hidden" id="mobile-menu">
+    <div class="px-2 pt-2 pb-3 space-y-1">
+      <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+      <a href="#" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">Dashboard</a>
+
+      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Team</a>
+
+      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Projects</a>
+
+      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Calendar</a>
+    </div>
+  </div>
+</nav>
+
+    <!--Hero-->
+<section class="bg-red-200 text-green-900 relative">
+
+  <div class="min-h-screen hero-image bg-right-bottom bg-cover flex" style="background-image: url(https://www.inspiredrealtyinc.com/wp-content/uploads/2020/06/Virtuance-Real-Estate-Photography-Luxury-Twilight-172-1024x683-1.jpg);">
+    <div class="relative container mx-auto p-4 flex items-end z-10">
+      <div>
+        <div class="content float-left py-4 px-5 my-5 absolute w-full" style="transform: translate(-50%, -50%); top: 45%; left: 50%;">
+          <h1 class="text-4xl text-white text-center font-bold">4Dewari</h1>
+          <p class=" text-white text-center mb-6">4Dewaari.com is a project of Homes Pakistan Media Marketing SMC Pvt. Ltd</p>
+          <div class="bg-white shadow-md rounded px-8 mb-4 mx-auto w-5/12 transform hover:scale-105 transition duration-500 rounded-md">
+            <div class="flex justify-center items-center ">
+              <!--actual component start-->
+              <div x-data="setup()">
+                <ul class="flex justify-center items-center my-2">
+                  <template x-for="(tab, index) in tabs" :key="index">
+                    <li class="cursor-pointer py-2 px-4 text-gray-500 border-b-4 shadow-md rounded-md w-32 text-center mx-2"
+                      :class="activeTab===index ? 'text-secondary b-tab shadow-md rounded-md' : ''" @click="activeTab = index"
+                      x-text="tab"></li>
+                  </template>
+                </ul>
+
+                <div class="w-full bg-white py-4 text-center mx-auto">
+                  <div x-show="activeTab===0">
+                    <div class="flex justify-between gap-3">
+                      <span class="w-1/2">
+                        <div class="group inline-block w-full">
+                          <button
+                            class="block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner flex rounded-md"
+                          >
+                            <span class="pr-1 font-semibold flex-1">Islamabad</span>
+                            <span>
+                              <svg
+                                class="fill-current h-4 w-4 transform group-hover:-rotate-180
+                                transition duration-150 ease-in-out mt-1"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20 20"
+                              >
+                                <path
+                                  d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                                />
+                              </svg>
+                            </span>
+                          </button>
+                          <ul
+                            class="bg-white border rounded-sm transform scale-0 group-hover:scale-100 absolute 
+                          transition duration-150 ease-in-out origin-top w-4/12"
+                          >
+                            <li class="rounded-sm px-3 py-1 text-secondary cursor-pointer hover:bg-gray-100">Islamabad</li>
+                            <li class="rounded-sm px-3 py-1 text-secondary cursor-pointer hover:bg-gray-100">Karachi</li>
+                          </ul>
+                        </div>
+                      </span>
+                      <span class="w-1/2">
+                      <input id="location" type="text" name="Type Location" placeholder="Type Location" autocomplete="family-name" class="block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner rounded-md" required />
+                      </span>
+                    </div>
+                    <div class="flex justify-between gap-3">
+                      <span class="w-1/2">
+                          <button class=" hover:bg-grey text-secondary w-full text-center justify-center font-bold py-2 my-3 rounded-md inline-flex items-center bg-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 mr-2 w-5 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          </svg>
+                            <span>More Options</span>
+                          </button>
+                       </span> 
+                       <span class="w-1/2">
+                          <button class=" hover:bg-grey text-white w-full text-center justify-center font-bold py-2 my-3 rounded-md inline-flex items-center bg-secondary  " >
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white mr-2" viewBox="0 0 20 20" fill="currentColor">
+                              <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                            </svg>
+                            <span>Find Property</span>
+                          </button>
+                       </span> 
+                  </div>
+                  <div x-show="activeTab===1">Content 2</div>
+                  <div x-show="activeTab===2">Content 3</div>
+                </div>
+                
+              </div>
+              <!--actual component end-->
+            </div>
+            </div>
+        </div>
+        <div class="cta clear-left px-5">
+          <a class="
+                no-underline
+                btn btn-primary 
+                block sm:inline-block global-transition
+                text-white" href="" target="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="bg-white border-b py-8">
+      <div class="container max-w-5xl mx-auto m-8">
+        <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+          FEATURED PROPERTIES
+        </h1>
+            <section>
+      <div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <div id="news-slider" class="owl-carousel">
+        <div class="post-slide">
+          <div class="wrapper bg-gray-400 antialiased text-gray-900">
+<div class="relative"> 
+  <span class="absolute top-0">
+     <span class="bg-teal-200 text-white text-xs px-2 inline-block rounded-full  uppercase font-semibold tracking-wide bg-secondary rounded-full ml-2">
+        New
+      </span>
+
+  </span>
+    <span class="absolute top-2 right-0">
+     <span class="bg-teal-200 text-teal-800 text-xs px-2 inline-block rounded-full  uppercase font-semibold tracking-wide">
+        <i class="fa fa-heart text-white text-xl" ></i>
+      </span>
+      
+  </span>
+      <span class="absolute bottom-36 right-0 flex">
+       <span class="bg-teal-200 px-2 text-teal-800 text-xs p-1 inline-block rounded-md  uppercase font-semibold tracking-wide flex bg-white  shadow-md mr-4">
+        <i class="fa fa-eye text-green-500 text-xl mr-2" ></i> 5
+      </span>
+     <span class="bg-teal-200 text-teal-800 text-xs p-1 inline-block rounded-md  uppercase font-semibold tracking-wide flex bg-white  shadow-md mr-4">
+        <i class="fa fa-share text-green-500 text-xl" ></i> 
+      </span>
+
+  </span>
+          <span class="absolute bottom-36 left-2 grid">
+            <h4 class="mt-1 text-sm text-white font-semibold uppercase leading-tight mb-2 text-shadow-lg ">7 Marla Beautiful Residential Plot For Sale In D-17 Isl...</h4>
+            <span class="flex">
+       <span class="bg-teal-200 px-2 text-teal-800 text-xs p-1 inline-block rounded-md  uppercase font-semibold tracking-wide flex bg-white  shadow-md mr-4">
+        <i class="fa fa-image text-green-500 text-xl mr-2" ></i> Open Gallery
+        </span>
+      </span>
+
+  </span>
+    <img src="https://images.unsplash.com/photo-1501183638710-841dd1904471?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt=" random imgee" class="w-full h-333 object-cover object-center rounded-lg shadow-md">    
+    
+ <div class="relative px-1 -mt-16  ">
+   <div class="bg-white p-3 px-2 rounded-lg shadow-lg">
+    <div class="flex items-baseline py-2">
+     
+      <div class=" w-1/2 text-gray-600 text-xs font-semibold tracking-wider">
+    2 baths  &bull; 3 rooms
+  </div>  
+  <span class="w-1/2 flex justify-end"> 
+    <i class="fa fa-home mr-1 text-green-900"></i>
+    <p class="text-xs font-semibold text-gray-600 tracking-wider">Residential Plot</p>
+  </span>
+    </div>
+    
+    
+ <span class="flex my-2">
+  <div class="mt-1 flex w-1/2">
+    <i class="fa fa-credit-card mr-2 text-green-900"></i>
+    <h4 class="text-md">PKR 1.5 crore</p>
+  </div>
+    <div class="mt-1 flex w-1/2 justify-end">
+    <i class="fa fa-map-marker ml-1 mr-2 text-blue-500"></i>
+    <p  class="text-xs">E9, Islamabad</p>
+  </div>
+</span>
+  <div class="mt-4">
+    <span class="text-teal-600 text-md font-semibold"></span>
+          <span class="w-full flex">
+     <span class="bg-green-900 w-4/12 text-white self-center place-content-center text-xs p-1 px-2 inline-block rounded-lg   tracking-wide flex  shadow-md">
+        <i class="fa fa-whatsapp text-white text-xl mr-2 " ></i> Whatsapp
+      </span>
+           <span class="bg-white self-center place-content-center w-4/12 text-secondary text-xs p-1 px-2 inline-block rounded-lg  tracking-wide flex  shadow-md ml-1" style="border: 1px solid #EC4E18;">
+        <i class="fa fa-phone text-secondary text-xl mr-2" ></i> Call
+      </span>
+           <span class=" self-center place-content-center bg-white w-4/12 text-secondary text-xs p-1 px-2 inline-block rounded-lg   tracking-wide flex shadow-md ml-1" style="border: 1px solid #EC4E18;">
+        <i class="fa fa-envelope-square text-secondary text-xl mr-2" ></i> Email
+      </span>
+      
+  </span>
+  </div>  
+  </div>
+ </div>
+  
+</div>
+  </div>
+        </div>
+        
+                <div class="post-slide">
+          <div class="wrapper bg-gray-400 antialiased text-gray-900">
+<div class="relative"> 
+  <span class="absolute top-0">
+     <span class="bg-teal-200 text-white text-xs px-2 inline-block rounded-full  uppercase font-semibold tracking-wide bg-secondary rounded-full ml-2">
+        New
+      </span>
+
+  </span>
+    <span class="absolute top-2 right-0">
+     <span class="bg-teal-200 text-teal-800 text-xs px-2 inline-block rounded-full  uppercase font-semibold tracking-wide">
+        <i class="fa fa-heart text-white text-xl" ></i>
+      </span>
+      
+  </span>
+      <span class="absolute bottom-36 right-0 flex">
+       <span class="bg-teal-200 px-2 text-teal-800 text-xs p-1 inline-block rounded-md  uppercase font-semibold tracking-wide flex bg-white  shadow-md mr-4">
+        <i class="fa fa-eye text-green-500 text-xl mr-2" ></i> 5
+      </span>
+     <span class="bg-teal-200 text-teal-800 text-xs p-1 inline-block rounded-md  uppercase font-semibold tracking-wide flex bg-white  shadow-md mr-4">
+        <i class="fa fa-share text-green-500 text-xl" ></i> 
+      </span>
+
+  </span>
+          <span class="absolute bottom-36 left-2 grid">
+            <h4 class="mt-1 text-sm text-white font-semibold uppercase leading-tight mb-2 text-shadow-lg ">7 Marla Beautiful Residential Plot For Sale In D-17 Isl...</h4>
+            <span class="flex">
+       <span class="bg-teal-200 px-2 text-teal-800 text-xs p-1 inline-block rounded-md  uppercase font-semibold tracking-wide flex bg-white  shadow-md mr-4">
+        <i class="fa fa-image text-green-500 text-xl mr-2" ></i> Open Gallery
+        </span>
+      </span>
+
+  </span>
+    <img src="https://images.unsplash.com/photo-1501183638710-841dd1904471?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt=" random imgee" class="w-full h-333 object-cover object-center rounded-lg shadow-md">    
+    
+ <div class="relative px-1 -mt-16  ">
+   <div class="bg-white p-3 px-2 rounded-lg shadow-lg">
+    <div class="flex items-baseline py-2">
+     
+      <div class=" w-1/2 text-gray-600 text-xs font-semibold tracking-wider">
+    2 baths  &bull; 3 rooms
+  </div>  
+  <span class="w-1/2 flex justify-end"> 
+    <i class="fa fa-home mr-1 text-green-900"></i>
+    <p class="text-xs font-semibold text-gray-600 tracking-wider">Residential Plot</p>
+  </span>
+    </div>
+    
+    
+ <span class="flex my-2">
+  <div class="mt-1 flex w-1/2">
+    <i class="fa fa-credit-card mr-2 text-green-900"></i>
+    <h4 class="text-md">PKR 1.5 crore</p>
+  </div>
+    <div class="mt-1 flex w-1/2 justify-end">
+    <i class="fa fa-map-marker ml-1 mr-2 text-blue-500"></i>
+    <p  class="text-xs">E9, Islamabad</p>
+  </div>
+</span>
+  <div class="mt-4">
+    <span class="text-teal-600 text-md font-semibold"></span>
+          <span class="w-full flex">
+     <span class="bg-green-900 w-4/12 text-white self-center place-content-center text-xs p-1 px-2 inline-block rounded-lg   tracking-wide flex  shadow-md">
+        <i class="fa fa-whatsapp text-white text-xl mr-2 " ></i> Whatsapp
+      </span>
+           <span class="bg-white self-center place-content-center w-4/12 text-secondary text-xs p-1 px-2 inline-block rounded-lg  tracking-wide flex  shadow-md ml-1" style="border: 1px solid #EC4E18;">
+        <i class="fa fa-phone text-secondary text-xl mr-2" ></i> Call
+      </span>
+           <span class=" self-center place-content-center bg-white w-4/12 text-secondary text-xs p-1 px-2 inline-block rounded-lg   tracking-wide flex shadow-md ml-1" style="border: 1px solid #EC4E18;">
+        <i class="fa fa-envelope-square text-secondary text-xl mr-2" ></i> Email
+      </span>
+      
+  </span>
+  </div>  
+  </div>
+ </div>
+  
+</div>
+  </div>
+        </div>
+        
+                <div class="post-slide">
+          <div class="wrapper bg-gray-400 antialiased text-gray-900">
+<div class="relative"> 
+  <span class="absolute top-0">
+     <span class="bg-teal-200 text-white text-xs px-2 inline-block rounded-full  uppercase font-semibold tracking-wide bg-secondary rounded-full ml-2">
+        New
+      </span>
+
+  </span>
+    <span class="absolute top-2 right-0">
+     <span class="bg-teal-200 text-teal-800 text-xs px-2 inline-block rounded-full  uppercase font-semibold tracking-wide">
+        <i class="fa fa-heart text-white text-xl" ></i>
+      </span>
+      
+  </span>
+      <span class="absolute bottom-36 right-0 flex">
+       <span class="bg-teal-200 px-2 text-teal-800 text-xs p-1 inline-block rounded-md  uppercase font-semibold tracking-wide flex bg-white  shadow-md mr-4">
+        <i class="fa fa-eye text-green-500 text-xl mr-2" ></i> 5
+      </span>
+     <span class="bg-teal-200 text-teal-800 text-xs p-1 inline-block rounded-md  uppercase font-semibold tracking-wide flex bg-white  shadow-md mr-4">
+        <i class="fa fa-share text-green-500 text-xl" ></i> 
+      </span>
+
+  </span>
+          <span class="absolute bottom-36 left-2 grid">
+            <h4 class="mt-1 text-sm text-white font-semibold uppercase leading-tight mb-2 text-shadow-lg ">7 Marla Beautiful Residential Plot For Sale In D-17 Isl...</h4>
+            <span class="flex">
+       <span class="bg-teal-200 px-2 text-teal-800 text-xs p-1 inline-block rounded-md  uppercase font-semibold tracking-wide flex bg-white  shadow-md mr-4">
+        <i class="fa fa-image text-green-500 text-xl mr-2" ></i> Open Gallery
+        </span>
+      </span>
+
+  </span>
+    <img src="https://images.unsplash.com/photo-1501183638710-841dd1904471?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt=" random imgee" class="w-full h-333 object-cover object-center rounded-lg shadow-md">    
+    
+ <div class="relative px-1 -mt-16  ">
+   <div class="bg-white p-3 px-2 rounded-lg shadow-lg">
+    <div class="flex items-baseline py-2">
+     
+      <div class=" w-1/2 text-gray-600 text-xs font-semibold tracking-wider">
+    2 baths  &bull; 3 rooms
+  </div>  
+  <span class="w-1/2 flex justify-end"> 
+    <i class="fa fa-home mr-1 text-green-900"></i>
+    <p class="text-xs font-semibold text-gray-600 tracking-wider">Residential Plot</p>
+  </span>
+    </div>
+    
+    
+ <span class="flex my-2">
+  <div class="mt-1 flex w-1/2">
+    <i class="fa fa-credit-card mr-2 text-green-900"></i>
+    <h4 class="text-md">PKR 1.5 crore</p>
+  </div>
+    <div class="mt-1 flex w-1/2 justify-end">
+    <i class="fa fa-map-marker ml-1 mr-2 text-blue-500"></i>
+    <p  class="text-xs">E9, Islamabad</p>
+  </div>
+</span>
+  <div class="mt-4">
+    <span class="text-teal-600 text-md font-semibold"></span>
+          <span class="w-full flex">
+     <span class="bg-green-900 w-4/12 text-white self-center place-content-center text-xs p-1 px-2 inline-block rounded-lg   tracking-wide flex  shadow-md">
+        <i class="fa fa-whatsapp text-white text-xl mr-2 " ></i> Whatsapp
+      </span>
+           <span class="bg-white self-center place-content-center w-4/12 text-secondary text-xs p-1 px-2 inline-block rounded-lg  tracking-wide flex  shadow-md ml-1" style="border: 1px solid #EC4E18;">
+        <i class="fa fa-phone text-secondary text-xl mr-2" ></i> Call
+      </span>
+           <span class=" self-center place-content-center bg-white w-4/12 text-secondary text-xs p-1 px-2 inline-block rounded-lg   tracking-wide flex shadow-md ml-1" style="border: 1px solid #EC4E18;">
+        <i class="fa fa-envelope-square text-secondary text-xl mr-2" ></i> Email
+      </span>
+      
+  </span>
+  </div>  
+  </div>
+ </div>
+  
+</div>
+  </div>
+        </div>
+        
+                <div class="post-slide">
+          <div class="wrapper bg-gray-400 antialiased text-gray-900">
+<div class="relative"> 
+  <span class="absolute top-0">
+     <span class="bg-teal-200 text-white text-xs px-2 inline-block rounded-full  uppercase font-semibold tracking-wide bg-secondary rounded-full ml-2">
+        New
+      </span>
+
+  </span>
+    <span class="absolute top-2 right-0">
+     <span class="bg-teal-200 text-teal-800 text-xs px-2 inline-block rounded-full  uppercase font-semibold tracking-wide">
+        <i class="fa fa-heart text-white text-xl" ></i>
+      </span>
+      
+  </span>
+      <span class="absolute bottom-36 right-0 flex">
+       <span class="bg-teal-200 px-2 text-teal-800 text-xs p-1 inline-block rounded-md  uppercase font-semibold tracking-wide flex bg-white  shadow-md mr-4">
+        <i class="fa fa-eye text-green-500 text-xl mr-2" ></i> 5
+      </span>
+     <span class="bg-teal-200 text-teal-800 text-xs p-1 inline-block rounded-md  uppercase font-semibold tracking-wide flex bg-white  shadow-md mr-4">
+        <i class="fa fa-share text-green-500 text-xl" ></i> 
+      </span>
+
+  </span>
+          <span class="absolute bottom-36 left-2 grid">
+            <h4 class="mt-1 text-sm text-white font-semibold uppercase leading-tight mb-2 text-shadow-lg ">7 Marla Beautiful Residential Plot For Sale In D-17 Isl...</h4>
+            <span class="flex">
+       <span class="bg-teal-200 px-2 text-teal-800 text-xs p-1 inline-block rounded-md  uppercase font-semibold tracking-wide flex bg-white  shadow-md mr-4">
+        <i class="fa fa-image text-green-500 text-xl mr-2" ></i> Open Gallery
+        </span>
+      </span>
+
+  </span>
+    <img src="https://images.unsplash.com/photo-1501183638710-841dd1904471?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt=" random imgee" class="w-full h-333 object-cover object-center rounded-lg shadow-md">    
+    
+ <div class="relative px-1 -mt-16  ">
+   <div class="bg-white p-3 px-2 rounded-lg shadow-lg">
+    <div class="flex items-baseline py-2">
+     
+      <div class=" w-1/2 text-gray-600 text-xs font-semibold tracking-wider">
+    2 baths  &bull; 3 rooms
+  </div>  
+  <span class="w-1/2 flex justify-end"> 
+    <i class="fa fa-home mr-1 text-green-900"></i>
+    <p class="text-xs font-semibold text-gray-600 tracking-wider">Residential Plot</p>
+  </span>
+    </div>
+    
+    
+ <span class="flex my-2">
+  <div class="mt-1 flex w-1/2">
+    <i class="fa fa-credit-card mr-2 text-green-900"></i>
+    <h4 class="text-md">PKR 1.5 crore</p>
+  </div>
+    <div class="mt-1 flex w-1/2 justify-end">
+    <i class="fa fa-map-marker ml-1 mr-2 text-blue-500"></i>
+    <p  class="text-xs">E9, Islamabad</p>
+  </div>
+</span>
+  <div class="mt-4">
+    <span class="text-teal-600 text-md font-semibold"></span>
+          <span class="w-full flex">
+     <span class="bg-green-900 w-4/12 text-white self-center place-content-center text-xs p-1 px-2 inline-block rounded-lg   tracking-wide flex  shadow-md">
+        <i class="fa fa-whatsapp text-white text-xl mr-2 " ></i> Whatsapp
+      </span>
+           <span class="bg-white self-center place-content-center w-4/12 text-secondary text-xs p-1 px-2 inline-block rounded-lg  tracking-wide flex  shadow-md ml-1" style="border: 1px solid #EC4E18;">
+        <i class="fa fa-phone text-secondary text-xl mr-2" ></i> Call
+      </span>
+           <span class=" self-center place-content-center bg-white w-4/12 text-secondary text-xs p-1 px-2 inline-block rounded-lg   tracking-wide flex shadow-md ml-1" style="border: 1px solid #EC4E18;">
+        <i class="fa fa-envelope-square text-secondary text-xl mr-2" ></i> Email
+      </span>
+      
+  </span>
+  </div>  
+  </div>
+ </div>
+  
+</div>
+  </div>
+        </div>
+
+                <div class="post-slide">
+          <div class="wrapper bg-gray-400 antialiased text-gray-900">
+<div class="relative"> 
+  <span class="absolute top-0">
+     <span class="bg-teal-200 text-white text-xs px-2 inline-block rounded-full  uppercase font-semibold tracking-wide bg-secondary rounded-full ml-2">
+        New
+      </span>
+
+  </span>
+    <span class="absolute top-2 right-0">
+     <span class="bg-teal-200 text-teal-800 text-xs px-2 inline-block rounded-full  uppercase font-semibold tracking-wide">
+        <i class="fa fa-heart text-white text-xl" ></i>
+      </span>
+      
+  </span>
+      <span class="absolute bottom-36 right-0 flex">
+       <span class="bg-teal-200 px-2 text-teal-800 text-xs p-1 inline-block rounded-md  uppercase font-semibold tracking-wide flex bg-white  shadow-md mr-4">
+        <i class="fa fa-eye text-green-500 text-xl mr-2" ></i> 5
+      </span>
+     <span class="bg-teal-200 text-teal-800 text-xs p-1 inline-block rounded-md  uppercase font-semibold tracking-wide flex bg-white  shadow-md mr-4">
+        <i class="fa fa-share text-green-500 text-xl" ></i> 
+      </span>
+
+  </span>
+          <span class="absolute bottom-36 left-2 grid">
+            <h4 class="mt-1 text-sm text-white font-semibold uppercase leading-tight mb-2 text-shadow-lg ">7 Marla Beautiful Residential Plot For Sale In D-17 Isl...</h4>
+            <span class="flex">
+       <span class="bg-teal-200 px-2 text-teal-800 text-xs p-1 inline-block rounded-md  uppercase font-semibold tracking-wide flex bg-white  shadow-md mr-4">
+        <i class="fa fa-image text-green-500 text-xl mr-2" ></i> Open Gallery
+        </span>
+      </span>
+
+  </span>
+    <img src="https://images.unsplash.com/photo-1501183638710-841dd1904471?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt=" random imgee" class="w-full h-333 object-cover object-center rounded-lg shadow-md">    
+    
+ <div class="relative px-1 -mt-16  ">
+   <div class="bg-white p-3 px-2 rounded-lg shadow-lg">
+    <div class="flex items-baseline py-2">
+     
+      <div class=" w-1/2 text-gray-600 text-xs font-semibold tracking-wider">
+    2 baths  &bull; 3 rooms
+  </div>  
+  <span class="w-1/2 flex justify-end"> 
+    <i class="fa fa-home mr-1 text-green-900"></i>
+    <p class="text-xs font-semibold text-gray-600 tracking-wider">Residential Plot</p>
+  </span>
+    </div>
+    
+    
+ <span class="flex my-2">
+  <div class="mt-1 flex w-1/2">
+    <i class="fa fa-credit-card mr-2 text-green-900"></i>
+    <h4 class="text-md">PKR 1.5 crore</p>
+  </div>
+    <div class="mt-1 flex w-1/2 justify-end">
+    <i class="fa fa-map-marker ml-1 mr-2 text-blue-500"></i>
+    <p  class="text-xs">E9, Islamabad</p>
+  </div>
+</span>
+  <div class="mt-4">
+    <span class="text-teal-600 text-md font-semibold"></span>
+          <span class="w-full flex">
+     <span class="bg-green-900 w-4/12 text-white self-center place-content-center text-xs p-1 px-2 inline-block rounded-lg   tracking-wide flex  shadow-md">
+        <i class="fa fa-whatsapp text-white text-xl mr-2 " ></i> Whatsapp
+      </span>
+           <span class="bg-white self-center place-content-center w-4/12 text-secondary text-xs p-1 px-2 inline-block rounded-lg  tracking-wide flex  shadow-md ml-1" style="border: 1px solid #EC4E18;">
+        <i class="fa fa-phone text-secondary text-xl mr-2" ></i> Call
+      </span>
+           <span class=" self-center place-content-center bg-white w-4/12 text-secondary text-xs p-1 px-2 inline-block rounded-lg   tracking-wide flex shadow-md ml-1" style="border: 1px solid #EC4E18;">
+        <i class="fa fa-envelope-square text-secondary text-xl mr-2" ></i> Email
+      </span>
+      
+  </span>
+  </div>  
+  </div>
+ </div>
+  
+</div>
+  </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    </section>
+      </div>
+    </section>
+    <section class="bg-white border-b py-8">
+      <div class="container mx-auto flex flex-wrap pt-4 pb-12">
+        <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+          OUR AGENCIES
+        </h1>
+      <div class="grid grid-cols-8 px-10 gap-2 py-4">
+        <div class="flex justify-center items-center">
+          <a class="cursor-pointer" href="#">
+            <div class="hover:scale-105 transform transition-all duration-500">
+              <img class="h-30 rounded-lg"
+                src="https://cdn.pixabay.com/photo/2020/07/21/16/24/landscape-5426755_960_720.jpg" alt="image" />
+            </div>
+          </a>
+        </div>
+        <div class="flex justify-center items-center">
+          <a class="cursor-pointer" href="#">
+            <div class="hover:scale-105 transform transition-all duration-500">
+              <img class="h-30 rounded-lg"
+                src="https://cdn.pixabay.com/photo/2020/07/21/16/24/landscape-5426755_960_720.jpg" alt="image" />
+            </div>
+          </a>
+        </div>
+        <div class="flex justify-center items-center">
+          <a class="cursor-pointer" href="#">
+            <div class="hover:scale-105 transform transition-all duration-500">
+              <img class="h-30 rounded-lg"
+                src="https://cdn.pixabay.com/photo/2020/07/21/16/24/landscape-5426755_960_720.jpg" alt="image" />
+            </div>
+          </a>
+        </div>
+        <div class="flex justify-center items-center">
+          <a class="cursor-pointer" href="#">
+            <div class="hover:scale-105 transform transition-all duration-500">
+              <img class="h-30 rounded-lg"
+                src="https://cdn.pixabay.com/photo/2020/07/21/16/24/landscape-5426755_960_720.jpg" alt="image" />
+            </div>
+          </a>
+        </div>
+        <div class="flex justify-center items-center">
+          <a class="cursor-pointer" href="#">
+            <div class="hover:scale-105 transform transition-all duration-500">
+              <img class="h-30 rounded-lg"
+                src="https://cdn.pixabay.com/photo/2020/07/21/16/24/landscape-5426755_960_720.jpg" alt="image" />
+            </div>
+          </a>
+        </div>
+        <div class="flex justify-center items-center">
+          <a class="cursor-pointer" href="#">
+            <div class="hover:scale-105 transform transition-all duration-500">
+              <img class="h-30 rounded-lg"
+                src="https://cdn.pixabay.com/photo/2020/07/21/16/24/landscape-5426755_960_720.jpg" alt="image" />
+            </div>
+          </a>
+        </div>
+        <div class="flex justify-center items-center">
+          <a class="cursor-pointer" href="#">
+            <div class="hover:scale-105 transform transition-all duration-500">
+              <img class="h-30 rounded-lg"
+                src="https://cdn.pixabay.com/photo/2020/07/21/16/24/landscape-5426755_960_720.jpg" alt="image" />
+            </div>
+          </a>
+        </div>
+        <div class="flex justify-center items-center">
+          <a class="cursor-pointer" href="#">
+            <div class="hover:scale-105 transform transition-all duration-500">
+              <img class="h-30 rounded-lg"
+                src="https://cdn.pixabay.com/photo/2020/07/21/16/24/landscape-5426755_960_720.jpg" alt="image" />
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="grid grid-cols-8 px-10 gap-2 py-4">
+        <div class="flex justify-center items-center">
+          <a class="cursor-pointer" href="#">
+            <div class="hover:scale-105 transform transition-all duration-500">
+              <img class="h-30 rounded-lg"
+                src="https://cdn.pixabay.com/photo/2020/07/21/16/24/landscape-5426755_960_720.jpg" alt="image" />
+            </div>
+          </a>
+        </div>
+        <div class="flex justify-center items-center">
+          <a class="cursor-pointer" href="#">
+            <div class="hover:scale-105 transform transition-all duration-500">
+              <img class="h-30 rounded-lg"
+                src="https://cdn.pixabay.com/photo/2020/07/21/16/24/landscape-5426755_960_720.jpg" alt="image" />
+            </div>
+          </a>
+        </div>
+        <div class="flex justify-center items-center">
+          <a class="cursor-pointer" href="#">
+            <div class="hover:scale-105 transform transition-all duration-500">
+              <img class="h-30 rounded-lg"
+                src="https://cdn.pixabay.com/photo/2020/07/21/16/24/landscape-5426755_960_720.jpg" alt="image" />
+            </div>
+          </a>
+        </div>
+        <div class="flex justify-center items-center">
+          <a class="cursor-pointer" href="#">
+            <div class="hover:scale-105 transform transition-all duration-500">
+              <img class="h-30 rounded-lg"
+                src="https://cdn.pixabay.com/photo/2020/07/21/16/24/landscape-5426755_960_720.jpg" alt="image" />
+            </div>
+          </a>
+        </div>
+        <div class="flex justify-center items-center">
+          <a class="cursor-pointer" href="#">
+            <div class="hover:scale-105 transform transition-all duration-500">
+              <img class="h-30 rounded-lg"
+                src="https://cdn.pixabay.com/photo/2020/07/21/16/24/landscape-5426755_960_720.jpg" alt="image" />
+            </div>
+          </a>
+        </div>
+        <div class="flex justify-center items-center">
+          <a class="cursor-pointer" href="#">
+            <div class="hover:scale-105 transform transition-all duration-500">
+              <img class="h-30 rounded-lg"
+                src="https://cdn.pixabay.com/photo/2020/07/21/16/24/landscape-5426755_960_720.jpg" alt="image" />
+            </div>
+          </a>
+        </div>
+        <div class="flex justify-center items-center">
+          <a class="cursor-pointer" href="#">
+            <div class="hover:scale-105 transform transition-all duration-500">
+              <img class="h-30 rounded-lg"
+                src="https://cdn.pixabay.com/photo/2020/07/21/16/24/landscape-5426755_960_720.jpg" alt="image" />
+            </div>
+          </a>
+        </div>
+        <div class="flex justify-center items-center">
+          <a class="cursor-pointer" href="#">
+            <div class="hover:scale-105 transform transition-all duration-500">
+              <img class="h-30 rounded-lg"
+                src="https://cdn.pixabay.com/photo/2020/07/21/16/24/landscape-5426755_960_720.jpg" alt="image" />
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="grid grid-cols-8 px-10 gap-2 py-4">
+        <div class="flex justify-center items-center">
+          <a class="cursor-pointer" href="#">
+            <div class="hover:scale-105 transform transition-all duration-500">
+              <img class="h-30 rounded-lg"
+                src="https://cdn.pixabay.com/photo/2020/07/21/16/24/landscape-5426755_960_720.jpg" alt="image" />
+            </div>
+          </a>
+        </div>
+        <div class="flex justify-center items-center">
+          <a class="cursor-pointer" href="#">
+            <div class="hover:scale-105 transform transition-all duration-500">
+              <img class="h-30 rounded-lg"
+                src="https://cdn.pixabay.com/photo/2020/07/21/16/24/landscape-5426755_960_720.jpg" alt="image" />
+            </div>
+          </a>
+        </div>
+        <div class="flex justify-center items-center">
+          <a class="cursor-pointer" href="#">
+            <div class="hover:scale-105 transform transition-all duration-500">
+              <img class="h-30 rounded-lg"
+                src="https://cdn.pixabay.com/photo/2020/07/21/16/24/landscape-5426755_960_720.jpg" alt="image" />
+            </div>
+          </a>
+        </div>
+        <div class="flex justify-center items-center">
+          <a class="cursor-pointer" href="#">
+            <div class="hover:scale-105 transform transition-all duration-500">
+              <img class="h-30 rounded-lg"
+                src="https://cdn.pixabay.com/photo/2020/07/21/16/24/landscape-5426755_960_720.jpg" alt="image" />
+            </div>
+          </a>
+        </div>
+        <div class="flex justify-center items-center">
+          <a class="cursor-pointer" href="#">
+            <div class="hover:scale-105 transform transition-all duration-500">
+              <img class="h-30 rounded-lg"
+                src="https://cdn.pixabay.com/photo/2020/07/21/16/24/landscape-5426755_960_720.jpg" alt="image" />
+            </div>
+          </a>
+        </div>
+        <div class="flex justify-center items-center">
+          <a class="cursor-pointer" href="#">
+            <div class="hover:scale-105 transform transition-all duration-500">
+              <img class="h-30 rounded-lg"
+                src="https://cdn.pixabay.com/photo/2020/07/21/16/24/landscape-5426755_960_720.jpg" alt="image" />
+            </div>
+          </a>
+        </div>
+        <div class="flex justify-center items-center">
+          <a class="cursor-pointer" href="#">
+            <div class="hover:scale-105 transform transition-all duration-500">
+              <img class="h-30 rounded-lg"
+                src="https://cdn.pixabay.com/photo/2020/07/21/16/24/landscape-5426755_960_720.jpg" alt="image" />
+            </div>
+          </a>
+        </div>
+        <div class="flex justify-center items-center">
+          <a class="cursor-pointer" href="#">
+            <div class="hover:scale-105 transform transition-all duration-500">
+              <img class="h-30 rounded-lg"
+                src="https://cdn.pixabay.com/photo/2020/07/21/16/24/landscape-5426755_960_720.jpg" alt="image" />
+            </div>
+          </a>
+        </div>
+      </div>
+        <div class="w-full mb-4">
+          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+        </div>
+        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+<h1 class="text-secondary text-center py-2 text-xl font-bold"> HOUSES FOR SALE </h1>
+          <div class="grid grid-cols-1 sm:grid-cols-6 md:grid-cols-6 lg:grid-cols-6 xl:grid-cols-6 gap-4 border rounded-lg p-4 px-1">
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">HOUSES for Sale in Lahore</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">20</div>
+ 
+<div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">HOUSES for Sale in Multan</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">22</div>
+ 
+<div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">HOUSES for Sale in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">HOUSES for Sale in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">HOUSES for Sale in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">HOUSES for Sale in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">HOUSES for Sale in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">HOUSES for Sale in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">HOUSES for Sale in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">HOUSES for Sale in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+      </div>
+        </div>
+        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <h1 class="text-secondary text-center py-2 text-xl font-bold"> FLATS FOR SALE </h1>
+          <div class="grid grid-cols-1 sm:grid-cols-6 md:grid-cols-6 lg:grid-cols-6 xl:grid-cols-6 gap-4 border rounded-lg p-4">
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Flats for Sale in Lahore</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">20</div>
+ 
+<div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Flats for Sale in Multan</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">22</div>
+ 
+<div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Flats for Sale in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Flats for Sale in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Flats for Sale in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Flats for Sale in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Flats for Sale in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Flats for Sale in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Flats for Sale in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Flats for Sale in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+      </div>
+        </div>
+        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <h1 class="text-secondary text-center py-2 text-xl font-bold"> PLOTS FOR SALE </h1>
+          <div class="grid grid-cols-1 sm:grid-cols-6 md:grid-cols-6 lg:grid-cols-6 xl:grid-cols-6 gap-4 border rounded-lg p-4">
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Plots for Sale in Lahore</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">20</div>
+ 
+<div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Plots for Sale in Multan</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">22</div>
+ 
+<div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Plots for Sale in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Plots for Sale in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Plots for Sale in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Plots for Sale in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Plots for Sale in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Plots for Sale in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Plots for Sale in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Plots for Sale in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+      </div>
+        </div>
+        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+<h1 class="text-secondary text-center py-2 text-xl font-bold"> HOUSES FOR RENT </h1>
+          <div class="grid grid-cols-1 sm:grid-cols-6 md:grid-cols-6 lg:grid-cols-6 xl:grid-cols-6 gap-4 border rounded-lg p-4 px-1">
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">HOUSES for RENT in Lahore</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">20</div>
+ 
+<div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">HOUSES for RENT in Multan</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">22</div>
+ 
+<div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">HOUSES for RENT in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">HOUSES for RENT in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">HOUSES for RENT in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">HOUSES for RENT in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">HOUSES for RENT in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">HOUSES for RENT in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">HOUSES for RENT in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">HOUSES for RENT in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+      </div>
+        </div>
+        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <h1 class="text-secondary text-center py-2 text-xl font-bold"> FLATS FOR RENT </h1>
+          <div class="grid grid-cols-1 sm:grid-cols-6 md:grid-cols-6 lg:grid-cols-6 xl:grid-cols-6 gap-4 border rounded-lg p-4">
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Flats for RENT in Lahore</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">20</div>
+ 
+<div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Flats for RENT in Multan</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">22</div>
+ 
+<div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Flats for RENT in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Flats for RENT in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Flats for RENT in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Flats for RENT in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Flats for RENT in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Flats for RENT in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Flats for RENT in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Flats for RENT in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+      </div>
+        </div>
+        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <h1 class="text-secondary text-center py-2 text-xl font-bold"> PLOTS FOR RENT </h1>
+          <div class="grid grid-cols-1 sm:grid-cols-6 md:grid-cols-6 lg:grid-cols-6 xl:grid-cols-6 gap-4 border rounded-lg p-4">
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Plots for RENT in Lahore</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">20</div>
+ 
+<div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Plots for RENT in Multan</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">22</div>
+ 
+<div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Plots for RENT in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Plots for RENT in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Plots for RENT in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Plots for RENT in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Plots for RENT in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Plots for RENT in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Plots for RENT in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-full text-black" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </div>
+        <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+          <h3 class=" text-black h-2 pb-2">Plots for RENT in Islamabad</h3>
+        </div>
+        <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic text-black h-2 pb-2 ">1022</div>
+      </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-gray-100 py-4">
+      <div class="container mx-auto px-2 pt-4 text-gray-800">
+        <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+          LATEST BLOG POSTS
+        </h1>
+        <div class="max-w-screen-xl mx-auto p-2 sm:p-5 md:p-8">
+  <div class="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-10">
+    <div class="rounded overflow-hidden shadow-lg">
+  <a href="#"><div class="relative">
+    <img class="w-full" src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Sunset in the mountains">
+<div class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
+    <a href="#!"><div class="absolute bottom-0 left-0 bg-secondary px-4 py-2 text-white text-sm hover:bg-white hover:text-black transition duration-500 ease-in-out">
+    Photos
+    </div></a>
+    <a href="!#"><div class="text-sm absolute top-0 right-0 bg-secondary px-4 text-white rounded-full h-16 w-16 flex flex-col items-center justify-center mt-3 mr-3 hover:bg-white hover:text-black transition duration-500 ease-in-out">
+      <span class="font-bold">27</span>
+      <small>March</small>
+      </div></a>
+    </div></a>
+  <div class="px-6 py-4">
+    <a href="#" class="font-semibold text-lg inline-block hover:text-secondary transition duration-500 ease-in-out">Best View in Islamabad City</a>
+    <p class="text-gray-500 text-sm">
+      The city that never sleeps
+    </p>
+  </div>
+  <div class="px-6 py-4 flex flex-row items-center">
+    <span href="#" class="py-1 text-sm font-regular text-gray-900 mr-1 flex flex-row items-center">
+      <svg height="13px" width="13px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g>
+  <g>
+    <path d="M256,0C114.837,0,0,114.837,0,256s114.837,256,256,256s256-114.837,256-256S397.163,0,256,0z M277.333,256
+      c0,11.797-9.536,21.333-21.333,21.333h-85.333c-11.797,0-21.333-9.536-21.333-21.333s9.536-21.333,21.333-21.333h64v-128
+      c0-11.797,9.536-21.333,21.333-21.333s21.333,9.536,21.333,21.333V256z"/>
+  </g>
+</g>
+</svg>
+      <span class="ml-1">6 mins ago</span></span>
+  </div>
+</div>
+    <div class="rounded overflow-hidden shadow-lg">
+  <a href="#"><div class="relative">
+    <img class="w-full" src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Sunset in the mountains">
+<div class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
+    <a href="#!"><div class="absolute bottom-0 left-0 bg-secondary px-4 py-2 text-white text-sm hover:bg-white hover:text-black transition duration-500 ease-in-out">
+    Photos
+    </div></a>
+    <a href="!#"><div class="text-sm absolute top-0 right-0 bg-secondary px-4 text-white rounded-full h-16 w-16 flex flex-col items-center justify-center mt-3 mr-3 hover:bg-white hover:text-black transition duration-500 ease-in-out">
+      <span class="font-bold">20</span>
+      <small>March</small>
+      </div></a>
+    </div></a>
+  <div class="px-6 py-4">
+    <a href="#" class="font-semibold text-lg inline-block hover:text-secondary transition duration-500 ease-in-out">Best House in Town</a>
+    <p class="text-gray-500 text-sm">
+      The collection of best House images in Islamabad city
+    </p>
+  </div>
+  <div class="px-6 py-4 flex flex-row items-center">
+    <span href="#" class="py-1 text-sm font-regular text-gray-900 mr-1 flex flex-row justify-between items-center">
+      <svg height="13px" width="13px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g>
+  <g>
+    <path d="M256,0C114.837,0,0,114.837,0,256s114.837,256,256,256s256-114.837,256-256S397.163,0,256,0z M277.333,256
+      c0,11.797-9.536,21.333-21.333,21.333h-85.333c-11.797,0-21.333-9.536-21.333-21.333s9.536-21.333,21.333-21.333h64v-128
+      c0-11.797,9.536-21.333,21.333-21.333s21.333,9.536,21.333,21.333V256z"/>
+  </g>
+</g>
+</svg>
+      <span class="ml-1">3 mins read</span></span>
+  </div>
+</div>
+    <div class="rounded overflow-hidden shadow-lg">
+  <a href="#"><div class="relative">
+    <img class="w-full" src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Sunset in the mountains">
+<div class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
+    <a href="#!"><div class="absolute bottom-0 left-0 bg-secondary px-4 py-2 text-white text-sm hover:bg-white hover:text-black transition duration-500 ease-in-out">
+    Photos
+    </div></a>
+    <a href="!#"><div class="text-sm absolute top-0 right-0 bg-secondary px-4 text-white rounded-full h-16 w-16 flex flex-col items-center justify-center mt-3 mr-3 hover:bg-white hover:text-black transition duration-500 ease-in-out">
+      <span class="font-bold">15</span>
+      <small>April</small>
+      </div></a>
+    </div></a>
+  <div class="px-6 py-4">
+    <a href="#" class="font-semibold text-lg inline-block hover:text-secondary transition duration-500 ease-in-out">Best House in Town</a>
+    <p class="text-gray-500 text-sm">
+      The collection of best House of town in pictures
+    </p>
+  </div>
+  <div class="px-6 py-4 flex flex-row items-center">
+    <span href="#" class="py-1 text-sm font-regular text-gray-900 mr-1 flex flex-row justify-between items-center">
+      <svg height="13px" width="13px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g>
+  <g>
+    <path d="M256,0C114.837,0,0,114.837,0,256s114.837,256,256,256s256-114.837,256-256S397.163,0,256,0z M277.333,256
+      c0,11.797-9.536,21.333-21.333,21.333h-85.333c-11.797,0-21.333-9.536-21.333-21.333s9.536-21.333,21.333-21.333h64v-128
+      c0-11.797,9.536-21.333,21.333-21.333s21.333,9.536,21.333,21.333V256z"/>
+  </g>
+</g>
+</svg>
+      <span class="ml-1">6 mins read</span></span>
+  </div>
+</div>
+  </div>
+</div>
+      </div>
+    </section>
+    <section>
+      <div class=" bg-gray-100 flex items-center justify-center">
+  <div class="containter mx-auto px-10">
+    <div class="bg-white p-8 rounded-lg shadow-lg relative hover:shadow-2xl transition duration-500">
+      <h1 class="text-2xl text-gray-800 font-semibold">Best Pakistan Property Real Estate Agents</h1>
+      <p class="text-gray-600 leading-6 tracking-normal">4Dewaari.com is an emerging and the most dynamic Pakistan real estate agents that possesses a vast knowledge and experience of real property in the country. It Aims to strive for opening new avenues and making innovations in the property business in Pakistan leading it towards the mounts of affluence. Headed by a visionary group of experts focuses on empowering the users with the resources they need to enable them to make better decisions to materialize their dreams. With its impervious vision to assist the masses in the field of landholdings, agency is likely to become Pakistan’s most prominent online real estate website for those who have passion for buying, selling, renting properties in Pakistan.</p>
+        <h1 class="text-2xl text-gray-800 font-semibold">How Do We Work?</h1>
+      <p class="text-gray-600 leading-6 tracking-normal">At 4 Dewaari, real estate agency deals with every aspect of the consumers’ needs in the industry. It is a best Pakistan property portal where buyers, sellers and dealers can share information about real estate properties rapidly, commendably and economically. At 4 Dewaari, you can advertise a asset, search properties and keep yourself well-informed with the latest updates and drifts making headlines in the sector. Whether you are an estate agent, developer or other industry professional, we’ll bring you how it affects you. We try our best to minimize the gap between the buyers and the sellers. We help the consumers in both find their next home and research the market by combining hundreds of thousands of property listings with market data and local information. We are fans of transparency and everything we do is aimed at making the market more efficient for both consumers and real estate investors. We're all about helping the people with inspiration and knowledge around the place they call home and connecting them with the best local professionals for help. We perform all that function of connecting the buyers and sellers with information, design, expertise and above all the appetite of our team, while bringing efficacy to our consumers. In addition to providing an online platform to real estate brokers, developers and proprietorship for listing their property for sale, purchase or rent, our company bids advertisement stints such as microsites, banners, home page links and project pages to the clients for prominence and labeling in the market. For clients to search for homes, flats, plots, plazas, commercial plots, warehouses, farmhouses, agricultural land and do their market research and the favored online marketing partner for Pakistan’s estate agents, letting agents and developers.</p>
+      <h1 class="text-2xl text-gray-800 font-semibold">Buy, Sell and Rent Real Estate Property in Pakistan
+</h1>
+      <p class="text-gray-600 leading-6 tracking-normal">Buying property in Pakistan for investment or otherwise is considered as one of the most established and the safest businesses in the country. The main reason behind this inclination is minimum level of risk and the highest possible rate of return and that too in a very short span of time. Buy real estate property in Pakistan means you are adding to your fixed assets. It is beneficial in both ways whether to meet one’s basic necessity or involve oneself in business which is the safest and the most stable investment option that one can confidently choose. It has lots of investment opportunities and a huge potential. Buying property in Pakistan not only fulfills basic necessity but also used for investment purpose and to improve the standard of living as well as to enjoy luxuries of life. Real estate business is no doubt, full of investment opportunities which makes it the easiest option to earn with a smart investment. In short, once you buy property in Pakistan, you can easily manage it to earn more out of rental income and the asset can be used whenever needed. Hence, Pakistan real estate for sale is a profitable option with high profit possibilities. It is a large industry where you can get maximum output with minimum input. Be it a house or any other property to buy, sell or real estate for rent is not as simple as that especially; when there are real estate companies roaming around in every nook and corner of the country and the market is extremely saturated. Therefore, a lot of care needs to be taken to make strategies that will convert a cold deal into a profitable one. So, it is highly important to take the services of a reputed and reliable dealer to make a successful deal. In the most modern era of internet the requisition of services from a renowned website like 4Dewaari.com is extremely desirable to make the deal a success in a true sense.</p>
+            <h1 class="text-2xl text-gray-800 font-semibold">Why We Are The Best Property Dealer?</h1>
+      <p class="text-gray-600 leading-6 tracking-normal">Our real estate company provides best Property Dealers for thousands of home buyers and holds the promise of end to end assistance. 4Dewaari.com does its utmost to deliver trustworthy experiences that our client may revere for lifetime. We aspire to be the first choice for our clients in their move of finding, renting, buying, selling and sponsoring a house. We make online property exploration easier, faster and smoother. With the ever-growing online search behavior, Our best team update material relevant to real estate trends, helping potential buyers to make well-versed purchasing decision. Although it was an uphill task to come up to the standards and expectations of the consumers, yet we have reliably done real estate business in Pakistan. Today we have much higher hopes and expectations in the days to come. The trust of the clients is the privilege of us. The mission of inspiring trust and confidence in our clients needed an unflinching courage and determination which wouldn`t have been possible to be undertaken without forceful contribution and determination of our vigorous team. Today, we have distinguished ourselves over others for the trust and confidence we inspire in our clients.</p>
+      <div>
+      </div>
+    </div>
+  </div>
+</div>
+    </section>
+    <!-- Change the colour #f8fafc to match the previous section colour -->
+    <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1.000000, -14.000000)" fill-rule="nonzero">
+          <g class="wave" fill="#f8fafc">
+            <path
+              d="M1440,84 C1383.555,64.3 1342.555,51.3 1317,45 C1259.5,30.824 1206.707,25.526 1169,22 C1129.711,18.326 1044.426,18.475 980,22 C954.25,23.409 922.25,26.742 884,32 C845.122,37.787 818.455,42.121 804,45 C776.833,50.41 728.136,61.77 713,65 C660.023,76.309 621.544,87.729 584,94 C517.525,105.104 484.525,106.438 429,108 C379.49,106.484 342.823,104.484 319,102 C278.571,97.783 231.737,88.736 205,84 C154.629,75.076 86.296,57.743 0,32 L0,0 L1440,0 L1440,84 Z"
+            ></path>
+          </g>
+          <g transform="translate(1.000000, 15.000000)" fill="#FFFFFF">
+            <g transform="translate(719.500000, 68.500000) rotate(-180.000000) translate(-719.500000, -68.500000) ">
+              <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
+              <path
+                d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z"
+                opacity="0.100000001"
+              ></path>
+              <path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" opacity="0.200000003"></path>
+            </g>
+          </g>
+        </g>
+      </g>
+    </svg>
+    <section class="container mx-auto text-center py-6 mb-12">
+      <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
+        Call to Action
+      </h1>
+      <div class="w-full mb-4">
+        <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
+      </div>
+      <h3 class="my-4 text-3xl leading-tight">
+        Main Hero Message to sell yourself!
+      </h3>
+      <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+        Action!
+      </button>
+    </section>
+
+    <!--Footer-->
+  <!-- Site footer -->
+    <footer class=" bg-white ">
+      <div class="container px-10 py-8">
+        <div class="flex">
+          <div class="w-4/12 p-4">
+             <img class="block lg:hidden h-8 w-auto" src="https://4dewaari.com/assets/img/4dewaari-logo.png" alt="Workflow">
+          <img class="hidden lg:block h-8 w-auto mx-auto mb-4" src="https://4dewaari.com/assets/img/4dewaari-logo.png" alt="Workflow">
+
+            <p class="text-justify text-gray-800" style="color:#737373;">4Dewaari.com is a project of Homes Pakistan Media Marketing SMC Pvt. Ltd. There is a well experienced, hard working and dedicated team of real estate professionals working behind it.</p>
+          </div>
+
+          <div class="w-5/12 p-4 pl-8">
+            <h6 class="text-2xl font-bold text-secondary">Find Us</h6>
+            <span class="flex text-black mt-2"><svg xmlns="http://www.w3.org/2000/svg" class="h-auto self-start  w-12 text-secondary mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+</svg>
+<p class="footer-links" style="color: #737373;">
+  Office No. 203, 2nd Floor, Gulberg Business Centre, Civic Centre, Gulberg Green, Islamabad
+</p></span>
+
+            <span class="flex text-black mt-2"><svg xmlns="http://www.w3.org/2000/svg" class="h-auto self-start  w-5 text-secondary mr-4" viewBox="0 0 20 20" fill="currentColor">
+  <path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z" />
+</svg>
+<p class="footer-links" style="color: #737373;">
+  info@4dewaari.com
+</p></span>
+
+            <span class="flex text-black mt-2"><svg xmlns="http://www.w3.org/2000/svg" class="h-auto self-start  w-5 text-secondary mr-4" viewBox="0 0 20 20" fill="currentColor">
+  <path fill-rule="evenodd" d="M12 1.586l-4 4v12.828l4-4V1.586zM3.707 3.293A1 1 0 002 4v10a1 1 0 00.293.707L6 18.414V5.586L3.707 3.293zM17.707 5.293L14 1.586v12.828l2.293 2.293A1 1 0 0018 16V6a1 1 0 00-.293-.707z" clip-rule="evenodd" />
+</svg>
+<p class="footer-links" style="color: #737373;">
+  +92 3458343777
+</p></span>
+
+          </div>
+
+          <div class="w-3/12 p-4">
+            <h6 class="text-2xl font-bold text-secondary">Quick Links</h6>
+            <ul class="footer-links mt-4">
+              <li><a href="http://scanfcode.com/about/">Home</a></li>
+              <li><a href="http://scanfcode.com/contact/">About Us</a></li>
+              <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container px-10 bg-gray-800 py-4">
+        <div class="flex">
+          <div class="w-6/12 self-center">
+            <p class="copyright-text">© 2021 4dewaari.com All Rights Reserved.
+            </p>
+          </div>
+
+          <div class="w-6/12 text-right">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+  <script>
+      function setup() {
+    return {
+      activeTab: 0,
+      tabs: [
+          "Sell",
+          "Rent",
+          "Wanted",
+      ]
+    };
+  };
+  </script>
+    <script>
+      var scrollpos = window.scrollY;
+      var header = document.getElementById("header");
+      var navcontent = document.getElementById("nav-content");
+      var navaction = document.getElementById("navAction");
+      var brandname = document.getElementById("brandname");
+      var toToggle = document.querySelectorAll(".toggleColour");
+
+      document.addEventListener("scroll", function () {
+        /*Apply classes for slide in bar*/
+        scrollpos = window.scrollY;
+
+        if (scrollpos > 10) {
+          header.classList.add("bg-white");
+          navaction.classList.remove("bg-white");
+          navaction.classList.add("gradient");
+          navaction.classList.remove("text-gray-800");
+          navaction.classList.add("text-white");
+          //Use to switch toggleColour colours
+          for (var i = 0; i < toToggle.length; i++) {
+            toToggle[i].classList.add("text-gray-800");
+            toToggle[i].classList.remove("text-white");
+          }
+          header.classList.add("shadow");
+          navcontent.classList.remove("bg-gray-100");
+          navcontent.classList.add("bg-white");
+        } else {
+          header.classList.remove("bg-white");
+          navaction.classList.remove("gradient");
+          navaction.classList.add("bg-white");
+          navaction.classList.remove("text-white");
+          navaction.classList.add("text-gray-800");
+          //Use to switch toggleColour colours
+          for (var i = 0; i < toToggle.length; i++) {
+            toToggle[i].classList.add("text-white");
+            toToggle[i].classList.remove("text-gray-800");
+          }
+
+          header.classList.remove("shadow");
+          navcontent.classList.remove("bg-white");
+          navcontent.classList.add("bg-gray-100");
+        }
+      });
+    </script>
+    <script>
+      /*Toggle dropdown list*/
+      /*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
+
+      var navMenuDiv = document.getElementById("nav-content");
+      var navMenu = document.getElementById("nav-toggle");
+
+      document.onclick = check;
+      function check(e) {
+        var target = (e && e.target) || (event && event.srcElement);
+
+        //Nav Menu
+        if (!checkParent(target, navMenuDiv)) {
+          // click NOT on the menu
+          if (checkParent(target, navMenu)) {
+            // click on the link
+            if (navMenuDiv.classList.contains("hidden")) {
+              navMenuDiv.classList.remove("hidden");
+            } else {
+              navMenuDiv.classList.add("hidden");
+            }
+          } else {
+            // click both outside link and outside menu, hide menu
+            navMenuDiv.classList.add("hidden");
+          }
+        }
+      }
+      function checkParent(t, elm) {
+        while (t.parentNode) {
+          if (t == elm) {
+            return true;
+          }
+          t = t.parentNode;
+        }
+        return false;
+      }
+
+
+$(document).ready(function() {
+    $("#news-slider").owlCarousel({
+        items : 3,
+        itemsDesktop:[1199,3],
+        itemsDesktopSmall:[980,2],
+        itemsMobile : [600,1],
+        navigation:true,
+        navigationText:["",""],
+        pagination:true,
+        autoPlay:true,
+autoplayTimeout:100,
+autoplayHoverPause:false
+    });
+});
+    </script>
+  </body>
+</html>
